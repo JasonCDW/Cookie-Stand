@@ -3,8 +3,8 @@ let storeArray = [];
 let hBody = document.getElementById("body");
 let hStoreTitle = document.getElementById("store-title");
 
-let Store = function (title, location, employees){
-    this.name = title
+let Store = function (nameOfStore, location, employees, ){
+    this.name = nameOfStore
     this.location = location
     this.employees = employees
 }
