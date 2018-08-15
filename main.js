@@ -3,6 +3,15 @@ let storeArray = [];
 let hBody = document.getElementById("body");
 let hStoreTitle = document.getElementById("store-title");
 
+let Store = function (title, location, employees){
+    this.name = title
+    this.location = location
+    this.employees = employees
+}
+
+let Store4 = new Store("Las Vegas Cookies", "Las Vegas", 23);
+
+
 let Store1 = {
     location: "Laurel",
     name: "DMV Cookies",
@@ -26,9 +35,11 @@ let Store3 = {
     types: "Cookie of the week",
     inventory: 306,
 };
-
-
-storeArray.push(Store1, Store2, Store3);
+//let storeCount = 3;
+//for(let i = 0; i < storeCount; i++) {
+    //storeArray.push('Store' + i);
+//};
+storeArray.push(Store1, Store2, Store3, Store4);
 
 function displayStoreTitles() {
     for(let i = 0; i < storeArray.length; i++) {
