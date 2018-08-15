@@ -1,0 +1,16 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(fonts/Cookie-Regular.ttf);
+    font-weight: bold;
+}
+body{
+    background-color: rgb(255, 212, 121);
+}
+h1{
+    font-family: myFirstFont;
+    font-size: 70px;
+    color: midnightblue;
+}
+h2{
+    color: olive;
+}
