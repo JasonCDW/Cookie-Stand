@@ -3,10 +3,15 @@ let storeArray = [];
 let hBody = document.getElementById("body");
 let hStoreTitle = document.getElementById("store-title");
 
-let Store = function (nameOfStore, location, employees, ){
+let Store = function (nameOfStore, location, employees, openingTime, closingTime, minimumCustomers, maximumCustomers, averageCookiesPerCustomer){
     this.name = nameOfStore
-    this.location = location
-    this.employees = employees
+    this.location = location,
+    this.employees = employees,
+    this.openTime = openingTime,
+    this.closeTime = closingTime,
+    this.minCustomers = minimumCustomers,
+    this.maxCustomers = maximumCustomers,
+    this.avgCookies = averageCookiesPerCustomer
 }
 
 let Store4 = new Store("Las Vegas Cookies", "Las Vegas", 23);
