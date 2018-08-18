@@ -14,3 +14,15 @@ h1{
 h2{
     color: olive;
 }
+
+.store-table {
+    border: 1px solid;
+}
+
+td {
+    border: 1.5px solid black;
+    color: blue;
+}
+th {
+    border: 1px solid;
+}
