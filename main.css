@@ -14,7 +14,9 @@ h1{
 h2{
     color: olive;
 }
-
+.table-container {
+    text-align: center;
+}
 .store-table {
     border: 1px solid;
 }
