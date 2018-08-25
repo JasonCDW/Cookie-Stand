@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Cookie Shops</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+<body id="body">
+    <h1>Pat's Crab Cookies</h1>
+    <div class="table-container">
+    <table id='store-table'></table>
+    </div>
+    <h1>Create New Store</h1>
+    <form id='store-form'>
+        <h3>New Store Name:</h3>
+        <input required placeholder="Store Name" name='storeName'></input>
+        <h3>New Store Location:</h3>
+        <input required placeholder="Store Location" name='storeLocation'></input>
+        <h3>Current Number of Employees:</h3>
+        <input required type='number' placeholder="Number of Employees" name='numEmployees'></input>
+        <h3>Minimum Amount of Customers:</h3>
+        <input required type='number' placeholder="Minimum Customers" name='minimumCustomers'></input>
+        <h3>Maximum Amount of Customers:</h3>
+        <input required type='number' placeholder="Maximum Customers" name='maximumCustomers'></input>
+        <h3>Average Amount of Cookies Per Customer:</h3>
+        <input required type='number' placeholder="Average Cookies" name='averageCookiesPerCustomer'></input>
+        <button id='submitButton' type='submit'>Submit</button>
+        <button id='resetButton' type='reset'>Reset</button>
+    </form>
+    <div class = "page-link">
+        <a href = 'index.html'><button>Home</button></a>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>

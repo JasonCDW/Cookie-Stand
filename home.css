@@ -1,0 +1,18 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(fonts/Cookie-Regular.ttf);
+    font-weight: bold;
+}
+h1 {
+    font-family: myFirstFont;
+    font-size: 70px;
+    color: midnightblue;
+}
+body{
+    background-color: rgb(255, 212, 121);
+}
+.sales {
+    width: 100%;
+    text-align: right;
+    float: right;
+}
