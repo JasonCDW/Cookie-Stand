@@ -25,5 +25,6 @@ td {
     border: 1.2px solid black;
 }
 th {
-    border: 1.5px solid;
+    border: 1.5px solid black;
+    color: saddlebrown;
 }
